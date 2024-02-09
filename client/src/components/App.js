@@ -1,15 +1,8 @@
-import { Link, Route, Switch } from "react-router-dom";
-
+import React, { useEffect, useState } from "react";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <main>
-      Dog Trainer Project
-    </main>
-  );
+  return <h1>Project Client</h1>;
 }
 
 export default App;
-
-
-
